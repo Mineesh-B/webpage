@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Creative To-Do List</title>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container my-5">
+    <h1 class="text-center mb-4">Creative To-Do List 🚀</h1>
+    <form id="todoForm" class="mb-3 d-flex gap-2">
+      <input type="text" id="taskInput" class="form-control" placeholder="Enter a new task" required>
+      <button type="submit" class="btn btn-primary">Add Task</button>
+    </form>
+    <div id="tasksContainer" class="tasks-grid"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
